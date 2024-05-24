@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "eslint './**/*.{ts,tsx}'"
   },
   "keywords": [],
   "author": "",
@@ -23,6 +23,7 @@
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "@architecture/tsconfig-commons": "*"
+    "@architecture/tsconfig-commons": "*",
+    "@architecture/eslint-commons": "*"
   }
 }
