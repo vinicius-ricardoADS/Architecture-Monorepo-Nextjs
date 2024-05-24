@@ -1,0 +1,24 @@
+{
+  "name": "@architecture/test-commons",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "files": [
+    "base.ts"
+  ],
+  "devDependencies": {
+    "jest": "27.5.0",
+    "ts-node": "10.9.2",
+    "babel-jest": "28.0.3",
+    "@babel/core": "7.24.6",
+    "@babel/preset-env": "7.24.6",
+    "@babel/preset-react": "7.24.6",
+    "@babel/preset-typescript": "7.24.6"
+  }
+}

@@ -1,4 +1,7 @@
 module.exports = {
+  "env": {
+    "jest/globals": true
+  },
   "extends": [
     "next",
     "eslint:recommended",

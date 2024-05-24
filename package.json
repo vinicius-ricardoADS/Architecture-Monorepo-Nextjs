@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@types/styled-components": "5.1.34",
+    "@types/jest": "27.5.0",
     "eslint": "9.3.0",
     "prettier": "2.6.2",
     "tsx": "^4.11.0",
@@ -22,6 +23,8 @@
     "build:web-public": "yarn web-public build",
     "start:web-public": "yarn web-public start",
     "lint:web-public": "yarn web-public lint",
-    "design-system": "yarn workspace @architecture/design-system"
+    "design-system": "yarn workspace @architecture/design-system",
+    "utils": "yarn workspace @architecture/utils",
+    "test:utils": "yarn utils test"
   }
 }
